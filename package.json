@@ -1,17 +1,18 @@
 {
-  "homepage" : "https://oleg-akinfiev.github.io/AutoApp/",
+  "homepage": "https://oleg-akinfiev.github.io/AutoApp/",
   "name": "auto",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-	 "predeploy":"npm run build",
-	 "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.15",
     "@types/node": "20.4.1",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
