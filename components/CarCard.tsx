@@ -5,6 +5,7 @@ import { calculateCarRent } from "@/utils";
 import Image from "next/image";
 import CustomButton from "./CustomButton";
 import { useState } from "react";
+import CarDetails from "./CarDetails";
 
 
 interface CarCardProps {
@@ -21,7 +22,7 @@ const CarCard = ({car}: CarCardProps) => {
   return (
 	 <div className="car-card group">
 		<div className="car-card__content">
-			<h2 className="card-card__content-title">
+			<h2 className="car-card__content-title">
 				{make} {model}
 			</h2>
 		</div>
@@ -66,6 +67,8 @@ const CarCard = ({car}: CarCardProps) => {
 				<CustomButton title="Посмотреть больше" containerStyles="w-full py-[16px] rounded-full bg-primary-blue" textStyles="text-while text-[14px] leading-[17px] font-bold" rightIcon="/right-arrow.svg" handleClick={() => setIsOpen(true)} />
 			</div>
 		</div>
+
+		<CarDetails isOpen={isOpen} closeModal={() => setIsOpen(false)} car={car} />
 	 </div>
   )
 }
