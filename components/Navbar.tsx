@@ -11,7 +11,7 @@ const Navbar = () => {
 				<Image src="/logo.svg" alt='Car Hub logo' width={118} height={18} className='object-container' />
 			</Link>
 
-			<CustomButton title="Войти" btnType="button" containerStyles='text-primary-blue rounded-full bg-white min-w-[130px]' />
+			<CustomButton title="Sign in" btnType="button" containerStyles='text-primary-blue rounded-full bg-white min-w-[130px]' />
 		</nav>
 	 </header>
   )

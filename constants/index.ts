@@ -62,35 +62,35 @@ export const manufacturers = [
 	},
 	{
 	  title: "Gas",
-	  value: "Газ",
+	  value: "Gas",
 	},
 	{
-	  title: "Electro",
-	  value: "Электро",
+	  title: "Electricity",
+	  value: "Electricity",
 	},
  ];
  
  export const footerLinks = [
 	{
-	  title: "О нас",
+	  title: "About",
 	  links: [
-		 { title: "Как это работает", url: "/" },
-		 { title: "Рекомендуемые", url: "/" },
-		 { title: "Сотрудничество", url: "/" },
-		 { title: "Деловые отношения", url: "/" },
+		 { title: "How it works", url: "/" },
+		 { title: "Featured", url: "/" },
+		 { title: "Partnership", url: "/" },
+		 { title: "Bussiness Relation", url: "/" },
 	  ],
 	},
 	{
-	  title: "Компании",
+	  title: "Company",
 	  links: [
-		 { title: "События", url: "/" },
-		 { title: "Блог", url: "/" },
-		 { title: "Подкаст", url: "/" },
-		 { title: "Пригласи друга", url: "/" },
+		 { title: "Events", url: "/" },
+		 { title: "Blog", url: "/" },
+		 { title: "Podcast", url: "/" },
+		 { title: "Invite a friend", url: "/" },
 	  ],
 	},
 	{
-	  title: "Социальные сети",
+	  title: "Socials",
 	  links: [
 		 { title: "Discord", url: "/" },
 		 { title: "Instagram", url: "/" },
