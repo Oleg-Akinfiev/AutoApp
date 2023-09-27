@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 
 export const metadata = {
   title: 'Car Hub',
-  description: 'Откройте для себя лучший автомобиль в мире',
+  description: "Discover world's best car showcase application",
 }
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ru">
+    <html lang="en">
       <body className="relative">
 			<Navbar />
 			{children}

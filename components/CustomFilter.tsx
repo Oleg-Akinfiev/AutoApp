@@ -1,11 +1,20 @@
-import React from 'react'
+"use client";
 
-const CustomFilter = () => {
+import { CustomFilterProps } from "@/types";
+import { Listbox } from "@headlessui/react";
+
+const CustomFilter = ({ title, options }: CustomFilterProps) => {
   return (
-	 <div>
-		
-	 </div>
-  )
-}
+    <div className="w-fit">
+      <Listbox>
+        <div className="relative w-fit z-10">
+          <Listbox.Button className="custom-bilter__btn">
+            <span>Filter</span>
+          </Listbox.Button>
+        </div>
+      </Listbox>
+    </div>
+  );
+};
 
-export default CustomFilter
+export default CustomFilter;
